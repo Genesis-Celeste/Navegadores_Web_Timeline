@@ -1,0 +1,64 @@
+html{
+    width: 100%;
+    height: auto;
+    background: -webkit-linear-gradient(to right, #8c9dff21, #8c9dff21), url(/Navegadores_Web_Timeline/Imagenes/Nature.jpg);
+    background: linear-gradient(to right, #8cffff21, #8cffff21), url(/Navegadores_Web_Timeline/Imagenes/Nature.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+body{
+    width: 80%;
+    margin: 10px auto;
+}
+
+header h1{
+    text-align: center;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    padding: 20px 15px;
+    background: #eaa928;
+    color: black;
+}
+
+nav ul a{
+    background: #eaa928;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+    margin: 0px 6px;
+    padding: 4px 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.intro{
+    padding: 30px 0 70px 0;
+}
+
+.intro-rob{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.robot{
+    width: 40%;
+    height: 90%;
+}
+
+.contenido{
+    width: 50%;
+}
+
+h2{
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p{
+    background: #eaa928;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: black;
+}
